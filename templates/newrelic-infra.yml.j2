@@ -1,1 +1,4 @@
 license_key: {{ nrinfragent_license_key }}
+{% if nrinfragent_display_name is defined %}
+display_name: {{ nrinfragent_display_name }}
+{% endif %}
